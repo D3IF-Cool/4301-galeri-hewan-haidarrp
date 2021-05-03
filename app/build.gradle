@@ -11,6 +11,7 @@ android {
         applicationId "org.d3if0130.galerihewan"
         minSdkVersion 19
         targetSdkVersion 30
+        multiDexEnabled true
         versionCode 1
         versionName "1.0"
 
@@ -51,4 +52,6 @@ dependencies {
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
     implementation "com.squareup.retrofit2:converter-moshi:$retrofit_version"
     implementation 'com.squareup.moshi:moshi-kotlin:1.9.3'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
 }
