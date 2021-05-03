@@ -1,8 +1,9 @@
-package org.d3if0130.galerihewan
+package org.d3if0130.galerihewan.ui.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import org.d3if0130.galerihewan.Hewan
 import org.d3if0130.galerihewan.databinding.ListItemBinding
 
 class MainAdapter(private val data: List<Hewan>) :
